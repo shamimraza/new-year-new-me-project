@@ -10,29 +10,55 @@ header {
     background-size: cover;
 }
 
-.banner-headding {
+.header-section {
     text-align: right;
     padding-top: 250px;
     margin-right: 100px;
 }
 
-.banner-title {
+.header-title {
     color: #151414;
     font-size: 45px;
     font-weight: 700;
     margin-bottom: 5px;
 }
 
-banner-description {
-    color:  #444343;
+
+header-description {
+    color: #444343;
     font-size: 16px;
     font-weight: 400;
 }
-.btn-primary{
+
+.btn-primary {
     padding: 12px 10px;
     border-radius: 5px;
     background: #F15B22;
     border: 0;
     color: white;
     margin-top: 20px;
+}
+
+     /* banner section */
+
+.banner-img {
+    display: flex;
+    padding: 100px;
+    background: #FFF;
+    align-items: center;
+    gap: 50px;
+}
+
+.banner-title {
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.banner-description, li {
+    color: var(--dark-02, #444343);
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 10px;
 }
