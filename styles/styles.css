@@ -39,7 +39,7 @@ header-description {
     margin-top: 20px;
 }
 
-     /* banner section */
+/* banner section */
 
 .banner-img {
     display: flex;
@@ -56,9 +56,114 @@ header-description {
     margin-bottom: 10px;
 }
 
-.banner-description, li {
+.banner-description,
+li {
     color: var(--dark-02, #444343);
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 10px;
+}
+
+li {
+    list-style: none;
+}
+
+/* plan section */
+
+.plan-section {
+    text-align: center;
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.plan-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.img-line {
+    width: 93px;
+    height: 93px;
+    align-items: center;
+}
+
+.plan-heading {
+    text-align: center;
+    color: #151414;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.plan-container {
+    color: #737272;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.padding {
+    padding: 100px;
+}
+
+.plan-section {
+    align-items: center;
+    margin-bottom: 50px
+}
+.watech-headding {
+    color: #FFF;
+    line-height: normal;
+    font-size: 20px;
+    padding: 30px 30px;
+}
+
+.section-img {
+    /* background-image: url("../images/watch.png"); */
+    border-radius: 8px;
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%),  url("../images/watch.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 200px;
+    width: 1140px;
+    margin: 0 auto;
+    border-radius: 10px;
+    margin-bottom: 50px;
+
+}
+
+/* footer section */
+
+footer {
+    background-color: black;
+    padding: 100px 70px;
+}
+
+.footer-section {
+    display: flex;
+    height: 200px;
+    color: white;
+    justify-content: space-around;
+}
+.footer-description{
+    width: 485px;
+    margin-bottom: 15px;
+}
+.footer-subscribe{
+    margin-bottom: 10px;
+}
+.email{
+    padding: 7px 5px;
+    border-radius: 5px;
+}
+.footer-header{
+    margin-bottom: 20px;
+}
+.p-section{
+    margin-bottom: 10px;
+}
+.icon{
+    height: 25px;
 }
